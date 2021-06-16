@@ -1,0 +1,30 @@
+.movie {
+    display: flex;
+    overflow: auto;
+   }
+.movie img:first-child {
+    margin-left: 12px;
+}
+.movie img:last-child {
+    margin-right: 12px;
+}
+.movie__img {
+    width: 103px;
+    height: 161px;
+    margin: 3.5px;
+}
+
+.movie__img--big {
+    width: 154px;
+    height: 251px;
+    margin: 3.5px;
+}
+
+.movie__img--circle {
+    flex-shrink: 0;
+    object-fit: cover;
+    border-radius:50%;
+    width: 102px;
+    height: 102px;
+    margin: 3.5px;
+}
