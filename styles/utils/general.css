@@ -1,7 +1,5 @@
 body {
   background-color: black;
-  max-width: 430px;
-  margin: 0 auto;
 }
 
 p,
@@ -12,4 +10,53 @@ span,
 strong {
   color: white;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.max-resol {
+  display: none;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.max-resol__text {
+  font-size: 20px;
+}
+
+.max-resol__text--notebook {
+  display: none;
+}
+
+.max-resol__text--tablet {
+  display: block;
+}
+
+.content {
+  display: block;
+}
+
+/* tablets 992px */
+@media screen and (min-width: 430px) {
+  .max-resol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .content {
+    display: none;
+  }
+}
+
+/* notebooks */
+@media screen and (min-width: 992px) {
+  .max-resol__text--tablet {
+    display: none;
+  }
+
+  .max-resol__text--notebook {
+    display: block;
+  }
+
 }
