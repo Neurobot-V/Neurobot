@@ -1,7 +1,9 @@
 .movie {
     display: flex;
-    overflow: auto;
+    overflow: auto; 
+    scrollbar-width: none;
    }
+
 .movie img:first-child {
     margin-left: 12px;
 }
