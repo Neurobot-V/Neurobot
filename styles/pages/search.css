@@ -1,0 +1,19 @@
+@import "../utils/index.css";
+@import "../components/status-bar.css";
+@import "../components/search-input.css";
+@import "../components/seach-movie.css";
+@import "../components/bottom-navbar.css";
+
+.top-searches {
+    font-size: 26.75px;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-bottom: 21px;
+    margin-top: 21px;
+}
+
+.bottom-navbar__background {
+    width: 100%;
+    position: fixed;    
+    bottom: 0;
+}
