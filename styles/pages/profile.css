@@ -1,0 +1,13 @@
+@import "../utils/index.css";
+@import "../components/status-bar.css";
+@import "../components/add-profile.css";
+@import "../components/profile.css";
+
+
+.add-profile {
+    margin-top: 13px;
+}
+
+.profile--grid {
+    margin-top: 140px;
+}
