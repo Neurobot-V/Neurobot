@@ -2,33 +2,30 @@
 @import "../components/status-bar.css";
 @import "../components/bottom-navbar.css";
 
-.DLBlock {
+.DL-Block {
     width: 90%;
-    margin: 0 auto;
+    margin: 0 auto;   
     text-align: center;
 }
 
 .smart-downloads {
     display: flex;
-    align-items: center;
-    width: 90%;
-    margin: 0 auto;
+    align-items: center;   
 }
 
 .smart-downloads__img {
-    width: 16px;
+    width: 16px;     
 }
 
 .smart-downloads__text {
     font-size: 14px;
-    margin-left: 5px;
-
+    margin-left: 4px;
 }
 
 .titles {
-    margin-top: 35px;
-    margin-bottom: 31px;
-    text-align: left;
+   margin-top: 35px;
+   margin-bottom: 31px;
+   text-align: left;
 }
 
 .titles__h1 {
