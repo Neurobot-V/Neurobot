@@ -11,10 +11,10 @@
 .search-input__input {
     border: none;
     background: none;
-    width: 258px;
+    width: 233px;
     outline: none;
     color: white;    
-    font-size: 15px;
+    font-size: 14px;
     margin-left: 5px;
     margin-right: 45px;
 }
