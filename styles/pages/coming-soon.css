@@ -1,0 +1,16 @@
+@import "../utils/index.css";
+@import "../components/status-bar.css";
+@import "../components/bottom-navbar.css";
+@import "../components/arrival-new.css";
+@import "../components/arrival-detailed.css";
+
+.notifications {
+    display: flex;
+    margin-left: 15px;
+    margin-right: 13px;
+    margin-bottom: 23px;
+    font-size: 16.91px;
+    font-weight: 700;
+    line-height: 12.64px;
+    align-items: center;   
+}
